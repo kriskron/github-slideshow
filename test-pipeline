@@ -6,8 +6,8 @@ trigger:
     include:
       - 'terraform/aks/**'
 
-#variables:
-#  - group: dufry_confluent_vars
+variables:
+  - group: confluent_vars
 
 pool:
   vmImage: 'ubuntu-latest'
